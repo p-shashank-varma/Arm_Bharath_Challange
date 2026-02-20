@@ -1,0 +1,20 @@
+# Software and Training
+Language - python3.8+
+Google drive # To back up your files
+YAML File - The "map" that told YOLO where your images were and what labels (Fire vs. Human) to use.
+Ultralytics - The primary library for YOLOv8 training, detection, and exporting.(Command - pip install ultralytics)
+
+# Quantization 
+Ubuntu 20.04/22.04: The required operating system for Xilinx Vitis-AI tools.
+Docker Desktop: Used to run the "Vitis-AI Container," which is a pre-packaged environment containing all Xilinx compilers.
+Calibration Dataset: A small folder of ~100 images (resized to 320x320) used to help the quantizer maintain accuracy.
+
+# In Vitis-AI
+ONNX - pip install onnx
+PILLOW - pip install Pillow
+Ultralytics - pip install ultralytics
+ONNX runtime - pip install onnxruntime
+
+#PYNQ-Z2 Board Requirements
+pip install pynq-dpu       # for DPU hardware inference
+pip install pillow numpy
