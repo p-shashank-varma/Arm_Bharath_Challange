@@ -268,5 +268,3 @@ Recommended next steps:
    https://roboflow.com/
 
 ---
-
-If you are using this repository for the ARM Bharat challenge submission, this README is intended to serve as the complete technical narrative for **hardware selection, software flow, model design, quantization, deployment logic, and practical application context**.
