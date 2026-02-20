@@ -1,0 +1,7 @@
+1. Dataset Collection
+2. Training in Google Colab
+3. Export to ONNX file
+4. Quantization in Vitis AI Docker
+5. Compilation to .xmodel
+6. Deployment on PYNQ-Z2
+7. Real-time inference
